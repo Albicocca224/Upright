@@ -397,7 +397,6 @@ input[type=radio].visually-hidden {
     -webkit-transition: 0.3s ease;
     transition: 0.3s ease;
     white-space: nowrap;
-    margin: 20px 0;
 }
 
 .nav__btn:focus {
@@ -440,12 +439,12 @@ input[type=radio].visually-hidden {
 
 @media (max-width: 700px) {
     .nav {
-        gap: 40px;
+        gap: 25px;
     }
 }
-@media (max-width: 420px) {
+@media (max-width: 465px) {
     .nav {
-        gap: 20px;
+        gap: 15px;
     }
 }
 @media (max-width: 350px) {
