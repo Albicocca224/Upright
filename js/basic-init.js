@@ -77,16 +77,6 @@ function reviewsHandleButtonClick() {
 }
 
 reviewsbtn.addEventListener('click', reviewsHandleButtonClick);
-var firstbtn = document.getElementById('contactScrollerFirst');
-
-function firstHandleButtonClick() {
-  footer.scrollIntoView({
-    block: "center",
-    behavior: "smooth"
-  });
-}
-
-firstbtn.addEventListener('click', firstHandleButtonClick);
 var secondbtn = document.getElementById('contactScrollerSecond');
 
 function secondHandleButtonClick() {
