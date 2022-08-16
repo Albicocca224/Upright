@@ -205,32 +205,31 @@ button {
     height: 100%;
     position: relative;
     margin: 0 auto;
-    padding: 0 15px;
 }
 
-@media (min-width: 376px) {
+@media (min-width: 320px) {
     .container {
         width: 95%;
     }
 }
 @media (min-width: 576px) {
     .container {
-        width: 90%;
+        width: 92.5%;
     }
 }
 @media (min-width: 768px) {
     .container {
-        width: 87.5%;
+        width: 90%;
     }
 }
 @media (min-width: 992px) {
     .container {
-        width: 85%;
+        width: 87.5%;
     }
 }
 @media (min-width: 1200px) {
     .container {
-        width: 82.5%;
+        width: 85%;
     }
 }
 .visually-hidden:not(:focus):not(:active),
@@ -382,7 +381,7 @@ input[type=radio].visually-hidden {
 }
 
 #nav {
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -391,6 +390,7 @@ input[type=radio].visually-hidden {
 
 .nav__link {
     color: #FDFDFD;
+    font-size: 1.2rem;
     font-weight: 500;
     cursor: pointer;
     text-decoration: none;
@@ -531,6 +531,8 @@ input[type=radio].visually-hidden {
 .main__caption-secondary {
     color: #FDFDFD;
     margin-top: -15px;
+    font-size: 1.1rem;
+    line-height: 150%;
 }
 
 .main__btn {
